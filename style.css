@@ -1,0 +1,348 @@
+body{
+    position: relative;
+    margin: 5% auto;
+    width: 90%;
+  
+  }
+  
+  header{
+    padding: 5px;
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  header{
+    text-align:center;
+  }
+  
+  h1{
+    font-size: 350%;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  nav{
+      width: 100%;
+      background: rgb(144, 211, 67);
+    margin-top: 20px;
+  }
+  
+  .nav-item{
+    display: inline-block;
+      padding: 20px;
+  }
+  
+  nav ul{
+    text-align:center;
+  }
+  
+  nav li{
+    margin-left:20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  nav li:hover{
+    transition:0.9s ease;
+    transform: scale(1.4);
+    background-color: white;
+  }
+  
+  a:hover{
+    color: rgb(144, 224, 68);
+  }
+  
+  nav a{
+    text-decoration:none;
+    color:white;
+  }
+  
+  .main{
+    float:left;
+    width:70%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .side{
+    float:left;
+    width: 25%;;
+    position: relative;
+    left: 2px;
+    padding-left:10px;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  footer{
+    width: 100%;
+    float:left;
+    margin-bottom: 50px;
+    background-color: black;
+  }
+  
+  .box1, .box2, .box3{
+    position: relative;
+    display: block;
+    background: #ecf0f1;
+    padding-bottom: 55px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .sidecontent, .fotos ,.welkom{
+    width: 280px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+    background-color: lightcoral;
+  }
+  
+  .fotos{
+    height: 1100px;
+  }
+  
+  img{
+    width: 90%;
+    margin: 40px 20px 20px;
+  }
+  
+  .box{
+    width: 30%;
+    float:left;
+  }
+  
+  p{
+    margin: 0 10px 10px 20px;
+  }
+  
+  .quote{
+    position:relative;
+    top: -25px;
+    left: -5px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+  }
+  .post-link{
+    color: black;
+    font-weight: bold;
+  }
+  
+  .more{
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+  }
+  
+  .side{
+    font-size: 100%;
+  }
+  h2{
+    font-size: 100%;
+    padding-top:20px;
+    position: relative;
+    left: 35px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .date{
+    color:rgb(84, 233, 25);
+    font-style:italic;
+    font-size: 80%;
+  }
+  
+  .posts{
+    position: relative;
+    left: 170px;
+    top: -5px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  .posts:hover{
+    transition:0.9s ease;
+    transform: scale(1.4);
+    background-color: white;
+  }
+  
+  .links{
+    text-decoration: underline;
+    color: slategrey;
+    margin-left: 20px;
+  }
+  
+  .title, h3{
+    margin-left: 20px;
+    font-size: 120%;
+    color: black;
+    Font-weight: bold;
+    color:black;
+  }
+  
+  h3{
+    padding: 20px 0 20px 20px;
+    color:white;
+  }
+  
+  .welkom p {
+    color: black;
+    width: 70%;
+    margin-top: 20px;
+    line-height: 18px;
+  }
+  
+  .sidecontent li{
+    color:black;
+    margin-left: 20px;
+  }
+  
+  .sidecontent ul{
+    padding-top: 20px;
+  }
+  
+  .fotos img{
+    width: 60%;
+    float:left;
+    position:relative;
+    left: 20px;
+  }
+  
+  .contact{
+    float:left;
+    width:50%;
+  }
+  
+  .text{
+    float:left;
+    width:50%;
+    color:white;
+  }
+  
+  .contact img{
+    width: 8%;
+    position: relative;
+    top: 20px;
+  }
+  
+  .contact p,img{
+    position: relative;
+    left:20px;
+  }
+  
+  .email{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom:30px;
+    color:white;
+  }
+  
+  .contact img{
+    position: relative;
+    top: -35px;
+    float:left;
+  }
+  
+  input{
+    margin-bottom: 20px;
+  }
+  
+  footer p{
+    color:white;
+  }
+  
+  .post1{
+    border:5px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .boxpost1{
+    position: relative;
+    display: block;
+    margin: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  
+  .post1 img{
+    position: relative;
+    left: -5px;
+  }
+  
+  .blogtekst{
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width:900px){
+    .side{
+      font-size: 80%;
+    }
+  
+    .welkom p{
+      width: 30%;
+    }
+  
+    .fotos{
+      position: relative;
+      width: 100%;
+      height: 850px;
+    }
+  
+    .fotos img{
+      position: relative;
+      left:20px;
+    }
+  
+    .posts{
+      left:100px;
+    }
+  }
+  
+  @media (max-width:600px){
+    .welkom p{
+      width: 30%;
+      position: relative;
+      left:-10px;
+    }
+  
+    h2{
+      font-size: 80%;
+      position: relative;
+      left:10px;
+    }
+  
+    .fotos img{
+      position: relative;
+      left: -10px;
+      width: 80%;
+    }
+  
+    nav li{
+      font-size: 80%;
+    }
+    nav{
+      width: 180%;
+      position: relative;
+      left:-150px;
+    }
+  
+    .box1 img, .box2 img, .box3 img{
+      width: 80%;
+      position: relative;
+      left: -1px;
+    }
+  
+    .posts{
+      left:10px;
+    }
+  }
+  
